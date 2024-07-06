@@ -66,3 +66,27 @@ header {
 #searchBtn:hover, #prevBtn:hover, #nextBtn:hover, #resetBtn:hover {
   opacity: 0.8;
 }
+
+.image {
+  width: 150px;
+}
+#app {
+  display: flex;
+  gap: 50px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  background-image: url("../blob.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 30px;
+}
+
+p{
+  font-weight: bolder;
+}
