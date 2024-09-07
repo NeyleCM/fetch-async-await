@@ -62,8 +62,8 @@ searchBtn.addEventListener("click", ()=>{
         containerApp.innerHTML = '';
             let template2 = `
                 <div class="card">
-                    <img class="image" src="${pokemonBuscado.sprites.other.dream_world.front_default}" alt="${pokemonBuscado.name}">
-                    <p> ${pokemonBuscado.name.toUpperCase()}</p>
+                    <img class="image" src="${newPokemon.sprites.other.dream_world.front_default}" alt="${newPokemon.name}">
+                    <p> ${newPokemon.name.toUpperCase()}</p>
                     </div>`;
         containerApp.insertAdjacentHTML('beforeend', template2)
     })
